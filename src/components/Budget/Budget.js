@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import MetisMenu from 'react-metismenu';
+import React, { Component } from "react";
+import './BudgetStyle.css';
 
-export const Budget = () => {
-  return ( 
-    <div>
-    <p>Hello</p>
-      <MetisMenu/>
-    </div>
-   );
+export class Budget extends Component {
+
+
+
+render(){
+  return(
+    <div></div>
+  )
+  }
 }
- 
+
+
+

@@ -1,13 +1,13 @@
 import React from 'react';
 import './loginStyle.css'
-import whiteBackground  from '../../static/img/GATEWAY_DSP_white.svg'
+import whiteBackground from '../../static/img/GATEWAY_DSP_white.svg'
 import blackCircle from '../../static/img/circle_black.svg'
 import smartMindBlack from '../../static/img/SMARTMIND_black.svg'
 
-export const Login = () => {
+export const Login = ({loginUser}) => {
   return (
     <div>
-     <img className="title" src={ whiteBackground } alt = 'whiteBackground' /> <br/>
+      <img className="title" src={whiteBackground} alt='whiteBackground' /> <br />
       <form action="">
 
         <input type="text" className="loginInput" id="email" name="email" placeholder="Email" /><br />
@@ -15,10 +15,12 @@ export const Login = () => {
 
         <i className="far fa-info-circle" style={{ color: 'white' }}></i>
         <span className="support" id="support">Support</span><br />
-        <a href="loading.html">
-          <button type="button" className="loginButton" id="loginButton">Sign In</button>
-        </a>
+      
+        <button type="button" className="loginButton" id="loginButton" onClick = {loginUser}>Sign In</button>
+      
       </form>
+
+
       <div className="Loader">
         <img src={blackCircle} className="circles" alt='blackBackground' />
       </div>

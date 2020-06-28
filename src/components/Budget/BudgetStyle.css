@@ -1,0 +1,113 @@
+.budgetContainer {
+    margin-left: 392px;
+    margin-top: -906px;
+  }
+  
+  .makeGoal{
+    padding: 58px;
+    padding-top: 44px;
+  }
+  .goalData{
+    margin-top: 79px;
+    overflow: hidden;
+  }
+  .editBudget{
+    float: left;
+    width: 448px;
+  }
+  .Duration{ 
+    position: absolute; 
+    left: 960px; 
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .bidding{
+    /* position: absolute; */
+    margin-top: 172px;
+    overflow: hidden;
+  }
+  .biddingOption{
+    float: left;
+    width: 425px;
+  }
+  .biddingGoal{
+    position: absolute;
+    left: 960px;
+    float: left;
+  }
+  
+  .label1 {
+    border-bottom: 1px solid #9B9B9B; 
+  }
+  
+  .Goal, .CPA, .bid{
+    width: 210px;
+  }
+
+
+  
+/* Font_Options.css */
+
+  .Roboto{
+    font-family: "Roboto";
+  
+  }
+  .Title{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  
+  }
+  .subTitle{
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .content_big{
+    font-size: 14px;
+    line-height: 18px;
+    color: #9B9B9B;
+  }
+  .content_middle{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .content_small{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .beBold{
+    font-weight: bold;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  
+
+
+  /* section_content.css */
+
+  body{
+    background: #f7f7fd;
+  }
+  .section{
+    background: #FFFFFF;
+    padding: 58px;
+    padding-top: 44px;
+  }
+  select{
+    border: 0px;
+    border-bottom: 1px solid #9B9B9B;
+  }
+  option{
+    border: 0px;
+    background: #F0F0F0;
+    text-align: center;
+  }
+  input{
+    border: 0px;
+    border-bottom: 1px solid #9B9B9B;
+  }
+  
